@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Mulish', sans-serif;
+  min-height: 100vh;
+}
+
+.conatainer{
+  width: 1153px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+nav{
+  background: #553C9A;
+  color: #fff;
+  padding: .1rem 0;
+
+}
+section.input{
+padding-top: 500px;
+
+}
+#heading{
+  text-align: center;
+  margin-top: 20px;
+}
+.form_wrap{
+  display: flex;
+  justify-content: center;
+}
+.input_wrap{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+input{
+  border: none;
+  outline: none;
+  min-width: 100px;
+}
+button{
+  background: #553C9A;
+  color: #fff;
+  height: 100%;
+  font-size: 12px;
+  cursor: pointer;
+}
+input:focus{
+  background-color: gray;
+  color: #fff;
+
+}
+section.data{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.loading{
+  display: none;
+}
+section.data p.def{
+  font-size: 20px;
+  color: #2d3748;
+  line-height: 1.6;
+}
+.suggested{
+  background: #B794f4;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.audio{
+  margin-top: 10px
+}
